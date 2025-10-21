@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>แถบเมนูตัวอย่าง</title>
+    <style>
+        /* สไตล์สำหรับแถบเมนู */
+        .navbar {
+            /* กำหนดพื้นหลังของแถบเมนู */
+            background-color: #333;
+            /* ลบระยะขอบและช่องว่างภายนอก */
+            margin: 0;
+            padding: 0;
+            /* ใช้ Flexbox เพื่อจัดเรียงปุ่มในแนวนอน */
+            display: flex;
+            /* ให้แถบเมนูติดอยู่ด้านบนสุดของหน้าจอ */
+            position: fixed;
+            top: 0;
+            width: 100%;
+            /* เพิ่มเงาเล็กน้อยเพื่อให้ดูมีมิติ */
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            /* จัดเรียงปุ่มไปทางซ้าย */
+            justify-content: flex-start;
+            z-index: 1000; /* ทำให้แถบเมนูอยู่ด้านบนสุดขององค์ประกอบอื่น ๆ */
+        }
+
+        /* สไตล์สำหรับปุ่ม/ลิงก์ในแถบเมนู */
+        .navbar a {
+            /* กำหนดสีข้อความเป็นสีขาว */
+            color: white;
+            /* จัดข้อความให้อยู่ตรงกลางของปุ่ม */
+            text-align: center;
+            /* เพิ่มช่องว่างภายในปุ่ม */
+            padding: 14px 20px;
+            /* ลบเส้นใต้ลิงก์ */
+            text-decoration: none;
+            /* กำหนดขนาดตัวอักษร */
+            font-size: 17px;
+            /* เปลี่ยนรูปแบบการแสดงผลเป็นแบบบล็อกเพื่อให้ควบคุมง่ายขึ้น */
+            display: block;
+            /* ทำให้การเปลี่ยนสีเมื่อเมาส์ชี้ดูนุ่มนวลขึ้น */
+            transition: background-color 0.3s, color 0.3s;
+            /* เพิ่มระยะห่างระหว่างปุ่มเล็กน้อย */
+            margin-right: 1px;
+        }
+
+        /* สไตล์เมื่อนำเมาส์ไปชี้ที่ปุ่ม */
+        .navbar a:hover {
+            /* เปลี่ยนสีพื้นหลังเมื่อเมาส์ชี้ */
+            background-color: #575757;
+            /* เปลี่ยนสีข้อความเมื่อเมาส์ชี้ */
+            color: #ffc107;
+        }
+
+        /* สไตล์สำหรับปุ่มที่ 'Active' (ถ้าต้องการเน้นปุ่มที่กำลังใช้งาน) */
+        .navbar a.active {
+            background-color: #04AA6D;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+
+<div class="navbar">
+    <a href="#" class="active">หน้าแรก</a>
+    <a href="/tech">เทคโนโลยีที่สนใจ</a>
+    <a href="/myid">รหัสนักศึกษา</a>
+    <a href="/draw">Draw</a>
+</div>
+
+<div style="padding-top: 60px; padding-left: 10px;">
+    
+</div>
+
+</body>
+</html>
+  <head>
+<html>
+   
+       
+ 
+    <title>แนะนำสถานที่ท่องเที่ยวสังขละบุรี จังหวัดกาญจนบุรี</title>
+  </head>
+  <body>
+    <h1><center>สังขละบุรี อำเภอเล็ก ๆ กลางหุบเขาที่เต็มไปด้วยความงดงามของธรรมชาติ <br>
+      และเรื่องราววัฒนธรรมที่น่าหลงใหลของชาวไทย-มอญ <br>อดีตเราจะรู้จักสังขละบุรีว่าเป็นดินแดนศักดิ์สิทธิ์จากบารมีของหลวงพ่ออุตตมะ (พระราชอุดมมงคล) <br>พระเกจิอาจารย์ชื่อดังที่ได้รับความเคารพเลื่อมใสจากคนไทยเชื้อสายมอญและพุทธศาสนิกชน</center> </h1>
+      <center><img src="static/1.jpg" width="1200" 
+     height="600" /><img></center>
+      
+    <h1><center>สิ่งที่โดดเด่นมาก ๆ ในสังขละบุรีก็คือ สะพานมอญ สะพานไม้ที่ยาวที่สุดในเมืองไทย ซึ่งปัจจุบันได้กลายเป็นแลนด์มาร์กสำคัญ<br>
+      ของจังหวัดกาญจนบุรีไปแล้ว อีกทั้งความสวยงามของธรรมชาติ โดยรอบของที่นี่ก็ทำให้สังขละบุรีน่าหลงใหลขึ้นอีกเท่าตัว <br>
+      วันนี้เราจึงได้รวบรวมสถานที่ท่องเที่ยวสังขละบุรีมาฝากกัน ไปชมภาพสถานที่ท่องเที่ยวกัน</center></h1>
+      </body>
+
+    <h1><center><center><h1>
+        <img src="static/2.jpg" width="1200" 
+     height="600" /><img>
+        <img src="static/3.jpg" width="1200" 
+     height="600" /><img>
+        <img src="static/4.jpg" width="1200" 
+     height="600" /><img>
+        <img src="static/5.jpg" width="1200" 
+     height="600" /><img>
+     <img src="static/6.jpg" width="1200" 
+     height="600" /><img>
+     <img src="static/7.jpg" width="1200" 
+     height="600" /><img>
+     <head>
+      <style>
+        /* กำหนดสีพื้นหลังของทั้งหน้าเว็บ */
+        body {
+          background-color: lightblue; /* เปลี่ยนเป็นสีที่ต้องการ */
+        }
+
+        /* กำหนดสีพื้นหลังให้เฉพาะ div */
+        .my-div {
+          background-color: yellow;
+        }
+      </style>
+    </head>
+    
+</html>
